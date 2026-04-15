@@ -12,4 +12,10 @@ def calculate(num1, num2, operator):
   else:
     return 'Invalid Operator'
 
-st.title('Calculator')  
+st.title('Calculator')    
+num1 = number_input('Enter the first number.')
+num2 = number_input('Enter the second number.')
+operator = st.selectbox('Select an operator',['+','-','*','/'] )
+
+result = calculate(num1, num2, operator)
+st.write('The result is:', result)
