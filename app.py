@@ -25,7 +25,7 @@ with col1:
     num1 = st.number_input('Enter the first number.')
 with col2:    
     num2 = st.number_input('Enter the second number.')
-operator = st.selectbox('Select an operator',['+','-','*','/','Power','Square Root'] )
+operator = st.selectbox('Select an operator',['+','-','*','/','Power'] )
 
 if st.button('Calculate'):
     result = calculate(num1, num2, operator)
