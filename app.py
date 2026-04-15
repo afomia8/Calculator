@@ -13,8 +13,8 @@ def calculate(num1, num2, operator):
     return 'Invalid Operator'
 
 st.title('Calculator')    
-num1 = number_input('Enter the first number.')
-num2 = number_input('Enter the second number.')
+num1 = st.number_input('Enter the first number.')
+num2 = st.number_input('Enter the second number.')
 operator = st.selectbox('Select an operator',['+','-','*','/'] )
 
 result = calculate(num1, num2, operator)
