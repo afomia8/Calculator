@@ -15,12 +15,7 @@ def calculate(num1, num2, operator):
     else:
       return'Cannot divide by zero.'
   elif operator == 'Power':
-    return num1**num2
-  elif operator == 'Square Root':
-    if num1 < 0:
-      return math.sqrt(num1)
-    else: 
-      return 'Error: Cannot square root a negative number.'  
+    return num1**num2  
   else:
     return 'Invalid Operator'
 
