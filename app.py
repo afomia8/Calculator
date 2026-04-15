@@ -34,4 +34,4 @@ operator = st.selectbox('Select an operator',['+','-','*','/','Power','Square Ro
 
 if st.button('Calculate'):
     result = calculate(num1, num2, operator)
-st.write('The result is:', result)
+    st.write('The result is:', result)
