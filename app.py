@@ -11,7 +11,7 @@ def calculate(num1, num2, operator):
     if num2 != 0:
       return num1/num2   
     else:
-      return'Numbers cannoty be divide by zero.'  
+      return'Numbers cannot be divided by zero.'  
   else:
     return 'Invalid Operator'
 
