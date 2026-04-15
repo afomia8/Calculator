@@ -5,18 +5,18 @@ st.set_page_config(page_title="My Calculator", page_icon="🔢")
 def calculate(num1, num2, operator):
   if operator == '+':
     return   num1 + num2
-  if operator == '-':
+  elif operator == '-':
     return num1 - num2
-  if operator == '*':
+  elif operator == '*':
     return num1*num2
-  if operator == '/':
+  elif operator == '/':
     if num2 != 0:
       return num1/num2
     else:
       return'Cannot divide by zero.'
-  if operator == 'Power':
+  elif operator == 'Power':
     return num1**num2
-  if operator == 'Square Root':
+  elif operator == 'Square Root':
     if num1 < 0:
       return math.sqrt(num1)
     else: 
